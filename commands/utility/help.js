@@ -31,7 +31,6 @@ if(message.content.toLowerCase() === `${prefix}help`){
     .setTitle("**Help Menu: Main**")
     .setColor(`#d9d9d9`)
     .addField(`**👑Moderation**`, `[ \`${prefix}help mod\` ]`, true)
-    .addField(`**⚙️Utility**`, `[ \`${prefix}help utility\` ]`, true)
 
 message.channel.send(log);
 } 
