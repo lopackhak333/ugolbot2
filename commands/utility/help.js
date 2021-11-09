@@ -8,6 +8,7 @@ module.exports = {
 config: {
     name: "help",
     description: "Help Menu",
+    aliases: ["Хелп", "h", "х"],
     usage: "1) m/help \n2) m/help [module name]\n3) m/help [command (name or alias)]",
     example: "1) m/help\n2) m/help utility\n3) m/help ban",
     aliases: ['h']
