@@ -31,7 +31,7 @@ if(message.content.toLowerCase() === `${prefix}help`){
     var log = new Discord.MessageEmbed()
     .setTitle("**Help Menu: Main**")
     .setColor(`#d9d9d9`)
-    .addField(`**👑Moderation**`, `[ \`${prefix}help mod\` ]`, true)
+    .addField(`**👑Moderаtion**`, `[ \`${prefix}help mod\` ]`, true)
 
 message.channel.send(log);
 } 
